@@ -3,7 +3,7 @@ let win = document.querySelector("#Winner");
 let reset = document.querySelector(".Reset");
 let score = document.querySelector("#Score");
 
-let count = 0;
+let count = 1;
 function comturn(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
